@@ -123,4 +123,3 @@ def game_hash
 }
 game
 end
-end
