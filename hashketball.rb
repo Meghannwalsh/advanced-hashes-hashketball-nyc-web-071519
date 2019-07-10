@@ -1,10 +1,12 @@
 # Write your code here!
+require "pry"
 def game_hash
   game = {:home => {
   :team_name => "Brooklyn Nets"
   :colors => ["Black", "White"]
 
-  :players => [{:name => "Alan Anderson"
+:players => [{
+:name => "Alan Anderson"
 :number => 0
 :shoe => 16
 :points => 22
