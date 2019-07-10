@@ -1,11 +1,6 @@
 # Write your code here!
 def game_hash
   game = {:home => {
-    :team_name =>
-    :colors => []
-    :players => [{}]
-  },
-:away => {
   :team_name => "Brooklyn Nets"
   :colors => ["Black", "White"]
   :players => [{:name => "Alan Anderson"
@@ -46,6 +41,7 @@ def game_hash
 :steals => 3
 :blocks => 8
 :slam_dunks => 5}
+
 {:name => "Jason Terry"
 :number => 31
 :shoe => 15
@@ -57,5 +53,10 @@ def game_hash
 :slam_dunks => 1}
 ]
   }
+  :team_name =>
+  :colors => []
+  :players => [{}]
+},
+:away => {
 }
 end
