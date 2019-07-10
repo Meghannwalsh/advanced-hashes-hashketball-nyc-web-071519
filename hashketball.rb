@@ -1,10 +1,10 @@
 # Write your code here!
-def game_hash 
+def game_hash
   game = {:home => {
-    :team_name => 
+    :team_name =>
     :colors => []
     :players => [{}]
-  }, 
+  },
 :away => {
   :team_name => "Brooklyn Nets"
   :colors => ["Black", "White"]
@@ -21,13 +21,4 @@ def game_hash
 }]
   }
 }
-end 
-
-
-
-
-
-
-
-
-
+end
