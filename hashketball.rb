@@ -3,8 +3,9 @@ def game_hash
   game = {:home => {
   :team_name => "Brooklyn Nets"
   :colors => ["Black", "White"]
+
   :players => [{:name => "Alan Anderson"
-    :number => 0
+:number => 0
 :shoe => 16
 :points => 22
 :rebounds => 12
@@ -13,6 +14,7 @@ def game_hash
 :blocks => 1
 :slam_dunks => 1
 }
+
 {:name => "Reggie Evans"
 :number => 30
 :shoe => 14
@@ -22,6 +24,7 @@ def game_hash
 :steals => 12
 :blocks => 12
 :slam_dunks => 7}
+
 {:name => "Brook Lopez"
 :number => 11
 :shoe => 17
@@ -51,7 +54,7 @@ def game_hash
 :steals => 4
 :blocks => 11
 :slam_dunks => 1}
-]
+
   }
   :team_name =>
   :colors => []
@@ -59,4 +62,5 @@ def game_hash
 },
 :away => {
 }
+]
 end
